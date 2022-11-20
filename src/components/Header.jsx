@@ -5,7 +5,7 @@ function Header() {
     <header>
       <div className="navbar">
         <a>Home</a>
-        <a>Products</a>
+        <a>Menu</a>
         <a>Contact Us</a>
         <a>Join Us</a>
       </div>

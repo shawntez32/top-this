@@ -4,11 +4,11 @@
     box-sizing: border-box;
   }
   html {
-    font-family: "Montserrat", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   body {
-    background: #eee;
-    padding: 0 16px;
+    background: #9999A2;
+    padding: 0;
   }
   
   header {
@@ -27,18 +27,27 @@
   header .navbar {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding: 0 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  homeImage img {
+    height: 490px;
+    width: 100vw;
   }
   
   footer {
-    position: absolute;
+    position: relative;
     text-align: center;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     height: 2.5rem;
   }
   
   footer p {
-    color: #ccc;
+    color: #000;
+    font-size: 18px;
+    padding-top: 12px;
   }
   .note {
     background: #fff;
@@ -70,6 +79,43 @@
     height: 36px;
     cursor: pointer;
     outline: none;
+  }
+
+  topthis .Welcome{
+    text-align: center;
+    background-color: #f5ba13;
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+  }
+
+  topthis .Welcome h1{
+    padding: 4px;
+  }
+
+  topthis .about-topThis {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .about-topThis {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 3fr 9fr 3fr;
+    background-color: #9999A2;
+  }
+
+  .about-topThis .middle {
+    background-color: #fff;
+    box-shadow: 2px 4px #ccc;
+  }
+
+  .about-topThis p {
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
   
   form {

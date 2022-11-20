@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Header from "./Header";
+import HomeImage from "./HomeImage";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+import TopThis from "./TopThis";
 
 function Apple() {
   const [notes, setNotes] = useState([]);
@@ -24,18 +26,8 @@ function Apple() {
   return (
     <div>
       <Header />
-      <CreateArea onAdd={addNote} />
-      {notes.map((noteItem, index) => {
-        return (
-          <Note
-            key={index}
-            id={index}
-            title={noteItem.title}
-            content={noteItem.content}
-            onDelete={deleteNote}
-          />
-        );
-      })}
+      <HomeImage />
+      <TopThis />
       <Footer />
     </div>
   );
