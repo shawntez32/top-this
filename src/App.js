@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import Apple from './components/App'
-
 import './styles.css';
 
 function App() {
