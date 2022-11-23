@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 import TopThis from "./TopThis";
+import Menu from "./Menu";
 
 function Apple() {
   const [notes, setNotes] = useState([]);
@@ -28,6 +29,7 @@ function Apple() {
       <Header />
       <HomeImage />
       <TopThis />
+      <Menu />
       <Footer />
     </div>
   );

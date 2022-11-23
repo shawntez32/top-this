@@ -1,5 +1,5 @@
 import React from "react";
-import cheese from "../images/cheeseFries.jpg";
+import cheese from "../images/a1.jpg";
 
 function HomeImage() {
   return (
