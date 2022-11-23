@@ -29,12 +29,15 @@ function Menu() {
         </div>
         <div className="space"></div>
 
+        <div></div>
         <div className="salads">
+            <h2>Salads</h2>
         <div>
                <div className="foodBox"></div>
                <div className="foodDesc"></div> 
             </div>
         </div>
+        <div></div>
         <div className="soup">
             <div>
                <div className="foodBox"></div>

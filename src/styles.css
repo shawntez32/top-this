@@ -42,6 +42,8 @@
     bottom: 0px;
     width: 100%;
     height: 2.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
   
   footer p {
@@ -83,7 +85,7 @@
 
   menu {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
   }
@@ -98,7 +100,7 @@
 
   menu .foodbox {
     background-color: #f5ba13;
-    height: 100px;
+    height: 125px;
     width: 80px;
     margin: 5px;
     text-align: center;
@@ -108,13 +110,23 @@
     background-color: #f5ba13;
     margin-top: 10px;
   }
+
+  menu .salads {
+    background-color: #f5ba13;
+    margin-top: 10px;
+  }
+
+  menu h2 {
+    color: #fff;
+  }
+
   menu .foodBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   menu .foodBox :last-child{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 15%;
     border-color: #f5ba13;
     background-color: #fff;
@@ -156,7 +168,7 @@
   .about-topThis {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 3fr 9fr 3fr;
+    grid-template-columns: 1fr 5fr 1fr;
     background-color: #9999A2;
   }
 
