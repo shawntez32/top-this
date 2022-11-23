@@ -8,14 +8,21 @@ function Menu() {
         <div className="space"></div>
         <div className="dinners">
             <div>
+                <h2>Dinners</h2>
              <div className="foodBox">
                 <img src={burger} alt="Burger"></img>
-                    <p>All beef burger.</p>
+                    <div>
+                    <p>All beef patty served with your choice of tasty toppings.</p>
+                    <a>Order Now</a>
+                    </div>
              </div>
                 
             <div className="foodBox">
                 <img src={cheese} alt="Fries"></img>
+                <div>
                 <p>Our famous fries.</p>
+                <a>Order Now</a>
+                </div>
             </div>
             
             </div>
