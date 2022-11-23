@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/top-this/static/css/main.4131fb50.css",
-    "main.js": "/top-this/static/js/main.9e5df4a4.js",
+    "main.css": "/top-this/static/css/main.93a8fa87.css",
+    "main.js": "/top-this/static/js/main.a4683376.js",
     "static/js/787.a3560755.chunk.js": "/top-this/static/js/787.a3560755.chunk.js",
-    "static/media/cheeseFries.jpg": "/top-this/static/media/cheeseFries.db6c652966d94824d419.jpg",
+    "static/media/a1.jpg": "/top-this/static/media/a1.e9de0d92237a4088c9b9.jpg",
+    "static/media/burger2.jpg": "/top-this/static/media/burger2.092b39958b58eae17dda.jpg",
     "static/media/logo.svg": "/top-this/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/top-this/index.html",
-    "main.4131fb50.css.map": "/top-this/static/css/main.4131fb50.css.map",
-    "main.9e5df4a4.js.map": "/top-this/static/js/main.9e5df4a4.js.map",
+    "main.93a8fa87.css.map": "/top-this/static/css/main.93a8fa87.css.map",
+    "main.a4683376.js.map": "/top-this/static/js/main.a4683376.js.map",
     "787.a3560755.chunk.js.map": "/top-this/static/js/787.a3560755.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4131fb50.css",
-    "static/js/main.9e5df4a4.js"
+    "static/css/main.93a8fa87.css",
+    "static/js/main.a4683376.js"
   ]
 }
