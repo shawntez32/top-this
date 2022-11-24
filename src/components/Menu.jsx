@@ -34,12 +34,13 @@ function Menu() {
         <div className="salads">
             <h2>Salads</h2>
         <div>
-               <div className="foodBox"></div>
+               <div className="foodBox">
                <img src={iceberg} alt="Iceberg Lettuce"></img>
                <div>
                 <p>Everyday fresh iceberg Lettuce</p>
                 <a>Order Now</a>
                </div> 
+            </div>
             </div>
         </div>
         <div className="space"></div>
