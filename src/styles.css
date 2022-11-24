@@ -93,15 +93,15 @@
   menu img {
     display: inline;
     height: 200px;
-    width: 300px;
-    margin: 10px;
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 15px;
     padding: 5px;
   }
 
   menu .foodbox {
     background-color: #f5ba13;
     height: 125px;
-    width: 80px;
     margin: 5px;
     text-align: center;
   }
@@ -128,7 +128,9 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 15%;
-    border-color: #f5ba13;
+    height: 190px;
+    border: 1px solid #503629;
+    border-color: #503629;
     background-color: #fff;
     margin-right: 15px;
   }
