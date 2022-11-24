@@ -2,6 +2,7 @@ import React from "react";
 import burger from "../images/burger2.jpg";
 import cheese from "../images/a1.jpg";
 import iceberg from "../images/iceberg.jpg";
+import romaine from "../images/romaine.jpg";
 
 function Menu() {
   return (
@@ -39,7 +40,18 @@ function Menu() {
                <div>
                 <p>Everyday fresh iceberg Lettuce</p>
                 <a>Order Now</a>
-               </div> 
+               </div>
+                
+            </div>
+            </div>
+            <div>
+               <div className="foodBox">
+               <img src={romaine} alt="Romaine Lettuce"></img>
+               <div>
+                <p>Everyday fresh romaine Lettuce</p>
+                <a>Order Now</a>
+               </div>
+                
             </div>
             </div>
         </div>
