@@ -1,10 +1,12 @@
 import React from "react";
+import icon from "../images/topthis.png";
 
 function TopThis() {
   return (
     <topthis>
         <div className="Welcome">
-            <h1>Top-This</h1>
+            <img src={icon}></img>
+            <h1>TopThis</h1>
         </div>
         <div className="about-topThis">
             <div></div>
