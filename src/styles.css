@@ -11,6 +11,14 @@
     padding: 0;
     overflow-x: hidden;
   }
+
+  img {
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  
+  }
   
   header {
     background-color: #f5ba13;
@@ -40,7 +48,7 @@
   }
 
   homeImage img {
-    height: 390px;
+    height: 490px;
     width: 100vw;
   }
   
@@ -100,12 +108,15 @@
   }
 
   menu img {
-    display: inline;
     height: 200px;
-    width: 75%;
-    margin-top: 5%;
+    width: 250px;
+    margin-top: 15%;
+    margin-bottom: 15%;
     margin-left: 15px;
     padding: 5px;
+    background-size:contain;
+    filter: saturate(175%);
+    border: 1px solid #000;
   }
 
   menu .foodbox {
@@ -134,13 +145,14 @@
 
   menu .foodBox {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    align-items:flex-start;
   }
   menu .foodBox :last-child{
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 15%;
-    height: 190px;
+    margin-bottom: 25%;
+    height: 200px;
     border: 1px solid #503629;
     border-color: #503629;
     background-color: #fff;
@@ -158,7 +170,6 @@
     background: rgba(80, 54, 41, 0.6) !important;
     font-family: 'SourceSansProBold', sans-serif !important;
     color: #fff;
-    padding: 2px 6px;
     position: relative;
     bottom: -60px;
     right: -150px;
@@ -176,19 +187,19 @@
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     display: grid;
-    grid-template-columns: 6fr 3fr 6fr;
+    grid-template-columns: 6fr 4fr 6fr;
   }
 
   topthis .Welcome h1{
-    padding: 4px;
-    margin-right: 4px;
-    display: inline-block;
+    display: inline;
+    vertical-align: middle;
   }
 
   topthis img {
     height: 60px;
     width: 100px;
     display: inline-block;
+    vertical-align: bottom;
   }
 
   topthis .about-topThis {

@@ -5,8 +5,12 @@ function TopThis() {
   return (
     <topthis>
         <div className="Welcome">
-            <img src={icon}></img>
+          <div></div>
+          <div>
             <h1>TopThis</h1>
+          </div>
+          <div></div>
+            
         </div>
         <div className="about-topThis">
             <div></div>

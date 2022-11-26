@@ -4,6 +4,7 @@ import cheese from "../images/a1.jpg";
 import iceberg from "../images/iceberg5.jpg";
 import romaine from "../images/romaine4.jpg";
 import soup from "../images/soup.jfif";
+import soup2 from "../images/bsoup.jfif"
 
 function Menu() {
   return (
@@ -62,6 +63,13 @@ function Menu() {
             <h2>Soup</h2>
             <div className="foodBox">
                <img src={soup} alt="Soup"></img>
+               <div>
+                <p>Delicious make your own soup</p>
+                <a>Order Now</a>
+            </div>
+            </div>
+            <div className="foodBox">
+               <img src={soup2} alt="Soup"></img>
                <div>
                 <p>Delicious make your own soup</p>
                 <a>Order Now</a>
