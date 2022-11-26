@@ -16,6 +16,7 @@ function Menu() {
              <div className="foodBox">
                 <img src={burger} alt="Burger"></img>
                     <div>
+                    <h3>Burgers</h3>
                     <p>All beef patty served with your choice of tasty toppings.</p>
                     <a>Order Now</a>
                     </div>
@@ -24,6 +25,7 @@ function Menu() {
             <div className="foodBox">
                 <img src={cheese} alt="Fries"></img>
                 <div>
+                <h3>Fries</h3>
                 <p>Our famous fries.</p>
                 <a>Order Now</a>
                 </div>
@@ -40,7 +42,8 @@ function Menu() {
                <div className="foodBox">
                <img src={iceberg} alt="Iceberg Lettuce"></img>
                <div>
-                <p>Everyday fresh iceberg Lettuce</p>
+                <h3>Iceberg Salad</h3>
+                <p>Create your own everyday fresh iceberg Lettuce</p>
                 <a>Order Now</a>
                </div>
                 

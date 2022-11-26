@@ -1,5 +1,4 @@
 import React from "react";
-import icon from "../images/topthis.png";
 
 function TopThis() {
   return (
