@@ -1,8 +1,8 @@
 import React from "react";
-import burger from "../images/burger2.jpg";
+import burger from "../images/burger4.jpg";
 import cheese from "../images/a1.jpg";
-import iceberg from "../images/iceberg.jpg";
-import romaine from "../images/romaine.jpg";
+import iceberg from "../images/iceberg5.jpg";
+import romaine from "../images/romaine4.jpg";
 
 function Menu() {
   return (
@@ -56,12 +56,18 @@ function Menu() {
             </div>
         </div>
         <div className="space"></div>
+        <div></div>
         <div className="soup">
-            <div>
-               <div className="foodBox"></div>
-               <div className="foodDesc"></div> 
+            <h2>Soup</h2>
+            <div className="foodBox">
+               <img src={romaine} alt="Romaine Lettuce"></img>
+               <div>
+                <p>Everyday fresh romaine Lettuce</p>
+                <a>Order Now</a>
+            </div>
             </div>
         </div>
+        <div className="space"></div>
         <div className="breakfast">
             <div>
                <div className="foodBox"></div>
