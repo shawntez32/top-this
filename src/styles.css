@@ -10,6 +10,7 @@
     background: #9999A2;
     padding: 0;
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom right,#000,#9999A2,#000,#9999A2,#000);
   }
 
   img {
@@ -160,13 +161,14 @@
   }
 
   menu .foodBox :last-child p {
-    margin-top: 8%;
+    margin-top: 4%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
   }
 
   menu .foodBox :last-child a {
     border: 2px solid #000;
+    padding: 5px 15px;
     background: rgba(80, 54, 41, 0.6) !important;
     font-family: 'SourceSansProBold', sans-serif !important;
     color: #fff;
@@ -211,7 +213,6 @@
     margin-top: 25px;
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
-    background-color: #9999A2;
   }
 
   .about-topThis .middle {
