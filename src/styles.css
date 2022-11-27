@@ -126,11 +126,13 @@
 
   .img-text {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 35%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    color: #ffe59f;
-    font-size: 22px;
+    color: #000;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #fff;
+    font-family:cursive;
   }
 
   menu .foodbox {
