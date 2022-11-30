@@ -5,6 +5,9 @@ import iceberg from "../images/iceberg5.jpg";
 import romaine from "../images/romaine4.jpg";
 import soup from "../images/soup.jfif";
 import soup2 from "../images/bsoup.jfif"
+import Header from "./Header";
+
+var routes = {"header": <Header/>}
 
 function Menu() {
   return (
@@ -22,7 +25,7 @@ function Menu() {
                     <div className="foodDsc">
                     <h3>Burgers</h3>
                     <p>All beef patty served with your choice of tasty toppings.</p>
-                    <a>Order Now</a>
+                    <a href={routes.header}>Order Now</a>
                     </div>
              </div>
                 
@@ -35,7 +38,7 @@ function Menu() {
                 <div className="foodDsc">
                 <h3>Fries</h3>
                 <p>Our famous fries.</p>
-                <a>Order Now</a>
+                <a href={routes.header}>Order Now</a>
                 </div>
             </div>
             
@@ -52,7 +55,7 @@ function Menu() {
                <div className="foodDsc">
                 <h3>Iceberg Salad</h3>
                 <p>Create your own everyday fresh iceberg Lettuce</p>
-                <a>Order Now</a>
+                <a href={routes.header}>Order Now</a>
                </div>
                 
             </div>
@@ -63,7 +66,7 @@ function Menu() {
                <div className="foodDsc">
                 <h3>Romaine Lettuce</h3>
                 <p>Everyday fresh romaine Lettuce</p>
-                <a>Order Now</a>
+                <a href={routes.header}>Order Now</a>
                </div>
                 
             </div>
@@ -77,14 +80,14 @@ function Menu() {
                <img src={soup} alt="Soup"></img>
                <div className="foodDsc">
                 <p>Delicious make your own soup</p>
-                <a>Order Now</a>
+                <a href={routes.header}>Order Now</a>
             </div>
             </div>
             <div className="foodBox">
                <img src={soup2} alt="Soup"></img>
                <div className="foodDsc">
                 <p>Delicious make your own soup</p>
-                <a>Order Now</a>
+                <a href={routes.header}>Order Now</a>
             </div>
             </div>
         </div>
