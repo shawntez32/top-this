@@ -6,6 +6,9 @@ import Note from "./Note";
 import CreateArea from "./CreateArea";
 import TopThis from "./TopThis";
 import Menu from "./Menu";
+import BurgerTopping from "./BurgerToppings";
+
+var toppingClicked = false;
 
 function Apple() {
   const [notes, setNotes] = useState([]);
@@ -25,7 +28,7 @@ function Apple() {
   }
 
   return (
-    <div>
+    toppingClicked ? <BurgerTopping /> : <div>
       <Header />
       <HomeImage />
       <TopThis />
