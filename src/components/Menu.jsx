@@ -6,8 +6,9 @@ import romaine from "../images/romaine4.jpg";
 import soup from "../images/soup.jfif";
 import soup2 from "../images/bsoup.jfif"
 import Header from "./Header";
+import BurgerTopping from "./BurgerToppings";
 
-var routes = {"header": <Header/>}
+var routes = {"header": <Header/>, "bg": <BurgerTopping/>}
 
 function Menu() {
   return (
@@ -24,8 +25,10 @@ function Menu() {
                 
                     <div className="foodDsc">
                     <h3>Burgers</h3>
-                    <p>All beef patty served with your choice of tasty toppings.</p>
-                    <a href={routes.header}>Order Now</a>
+                    <p>All beef patty served with your choice of tasty toppings.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.
+                    </p>
+                    <a href={routes.bg}>Order Now</a>
                     </div>
              </div>
                 
@@ -37,7 +40,8 @@ function Menu() {
                 
                 <div className="foodDsc">
                 <h3>Fries</h3>
-                <p>Our famous fries.</p>
+                <p>Our famous fries.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
                 </div>
             </div>
@@ -54,7 +58,8 @@ function Menu() {
                <img src={iceberg} alt="Iceberg Lettuce"></img>
                <div className="foodDsc">
                 <h3>Iceberg Salad</h3>
-                <p>Create your own everyday fresh iceberg Lettuce</p>
+                <p>Create your own everyday fresh iceberg Lettuce.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
                </div>
                 
@@ -65,7 +70,8 @@ function Menu() {
                <img src={romaine} alt="Romaine Lettuce"></img>
                <div className="foodDsc">
                 <h3>Romaine Lettuce</h3>
-                <p>Everyday fresh romaine Lettuce</p>
+                <p>Everyday fresh romaine Lettuce.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
                </div>
                 
@@ -79,14 +85,16 @@ function Menu() {
             <div className="foodBox">
                <img src={soup} alt="Soup"></img>
                <div className="foodDsc">
-                <p>Delicious make your own soup</p>
+                <p>Delicious make your own soup.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
             </div>
             </div>
             <div className="foodBox">
                <img src={soup2} alt="Soup"></img>
                <div className="foodDsc">
-                <p>Delicious make your own soup</p>
+                <p>Delicious make your own soup.<br/>
+                       All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
             </div>
             </div>
