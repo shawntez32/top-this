@@ -7,6 +7,7 @@ import soup from "../images/soup.jfif";
 import soup2 from "../images/bsoup.jfif"
 import Header from "./Header";
 import BurgerTopping from "./BurgerToppings";
+import Apple from "./App";
 
 var routes = {"header": <Header/>, "bg": <BurgerTopping/>}
 
@@ -25,6 +26,7 @@ function Menu() {
                 
                     <div className="foodDsc">
                     <h3>Burgers</h3>
+
                     <p>All beef patty served with your choice of tasty toppings.<br/>
                        All items come with premium limited toppings and some unlimited toppings.
                     </p>
@@ -39,9 +41,9 @@ function Menu() {
                 </div>
                 
                 <div className="foodDsc">
-                <h3>Fries</h3>
-                <p>Our famous fries.<br/>
-                       All items come with premium limited toppings and some unlimited toppings.</p>
+                <h3>French Fries</h3>
+                <p>  Our famous fries.<br/>
+                         All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
                 </div>
             </div>
@@ -85,6 +87,7 @@ function Menu() {
             <div className="foodBox">
                <img src={soup} alt="Soup"></img>
                <div className="foodDsc">
+                <h3>Cheese Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
@@ -93,6 +96,7 @@ function Menu() {
             <div className="foodBox">
                <img src={soup2} alt="Soup"></img>
                <div className="foodDsc">
+                <h3>Broth Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <a href={routes.header}>Order Now</a>
