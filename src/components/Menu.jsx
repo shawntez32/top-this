@@ -57,7 +57,10 @@ function Menu() {
             <h2>Salads</h2>
         <div>
                <div className="foodBox">
-               <img src={iceberg} alt="Iceberg Lettuce"></img>
+               <div>
+                <img src={iceberg} alt="Iceberg Lettuce"></img>
+                <h4 className="img-text">Iceberg Salad</h4>
+               </div>
                <div className="foodDsc">
                 <h3>Iceberg Salad</h3>
                 <p>Create your own everyday fresh iceberg Lettuce.<br/>
@@ -69,7 +72,10 @@ function Menu() {
             </div>
             <div>
                <div className="foodBox">
-               <img src={romaine} alt="Romaine Lettuce"></img>
+                <div>
+                    <img src={romaine} alt="Romaine Lettuce"></img>
+                    <h4 className="img-text">Romaine Salad</h4>
+                </div>
                <div className="foodDsc">
                 <h3>Romaine Lettuce</h3>
                 <p>Everyday fresh romaine Lettuce.<br/>
@@ -85,7 +91,10 @@ function Menu() {
         <div className="soup">
             <h2>Soup</h2>
             <div className="foodBox">
-               <img src={soup} alt="Soup"></img>
+                <div>
+                    <img src={soup} alt="Soup"></img>
+                    <h4 className="img-text">Cheese Soup</h4>
+                </div>
                <div className="foodDsc">
                 <h3>Cheese Based</h3>
                 <p>Delicious make your own soup.<br/>
@@ -94,7 +103,10 @@ function Menu() {
             </div>
             </div>
             <div className="foodBox">
-               <img src={soup2} alt="Soup"></img>
+                <div>
+                    <img src={soup2} alt="Soup"></img>
+                    <h4 className="img-text">Broth Soup</h4>
+                </div>
                <div className="foodDsc">
                 <h3>Broth Based</h3>
                 <p>Delicious make your own soup.<br/>
