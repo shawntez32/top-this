@@ -7,7 +7,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   body {
-    background: #9999A2;
+    background: #fff;
     padding: 0;
     overflow-x: hidden;
     background-image: linear-gradient(to bottom right,#f8e4ae,#d1c795,#d1c795,#f8e4ae);
@@ -167,7 +167,7 @@
   menu .foodBox .foodDsc{
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
     height: 250px;
     border: 1px solid #503629;
     border-color: #503629;
@@ -182,6 +182,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     color: #3a372e;
+    margin-bottom: 20px;
 
   }
 
@@ -192,8 +193,6 @@
     background: #49453a !important;
     font-family: 'SourceSansProBold', sans-serif !important;
     color: #fff;
-    position: relative;
-    bottom: -90px;
   }
 
   topthis {
@@ -280,4 +279,9 @@
     cursor: pointer;
     outline: none;
   }
+/*Small Port */
+
+/*medium Port */
+
+/*large Port */
   
