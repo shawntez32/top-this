@@ -5,10 +5,9 @@ import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 import TopThis from "./TopThis";
-import Menu from "./Menu";
+import {Menu,toppingClicked} from "./Menu";
 import BurgerTopping from "./BurgerToppings";
 
-var toppingClicked = false;
 
 function Apple() {
   const [notes, setNotes] = useState([]);

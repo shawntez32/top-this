@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import burger from "../images/burger4.jpg";
 import cheese from "../images/a1.jpg";
 import iceberg from "../images/iceberg5.jpg";
@@ -10,8 +10,17 @@ import BurgerTopping from "./BurgerToppings";
 import Apple from "./App";
 
 var routes = {"header": <Header/>, "bg": <BurgerTopping/>}
+var toppingClicked = false;
+
 
 function Menu() {
+    
+    var [toppingClickedTrigger,clicker] = useState(false);
+    function clicked(arg) {
+        clicker = true;
+        arg = clicker;
+    }
+    
   return (
     <menu>
         <div className="space"></div>
@@ -30,7 +39,7 @@ function Menu() {
                     <p>All beef patty served with your choice of tasty toppings.<br/>
                        All items come with premium limited toppings and some unlimited toppings.
                     </p>
-                    <a href={routes.bg}>Order Now</a>
+                    <a><button onClick={clicked}>Order Now</button> </a>
                     </div>
              </div>
                 
@@ -126,4 +135,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export {Menu,toppingClicked};
