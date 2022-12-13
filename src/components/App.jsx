@@ -20,8 +20,18 @@ function Apple() {
   }
 
   function clicked() {
-    clicker(true);
+    clicker(false);
   }
+
+  var routes = {"header": <Header/>, "bg": <BurgerTopping/>,"home": <div>
+<Header />
+<HomeImage />
+<TopThis />
+<Menu
+onClick={clicked}
+ />
+<Footer />
+</div>}
 
   function deleteNote(id) {
     setNotes(prevNotes => {
