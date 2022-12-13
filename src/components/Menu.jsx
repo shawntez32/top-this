@@ -13,7 +13,7 @@ var routes = {"header": <Header/>, "bg": <BurgerTopping/>}
 var toppingClicked = false;
 
 
-function Menu() {
+function Menu(props) {
     
     var [toppingClickedTrigger,clicker] = useState(false);
     function clicked(arg) {
@@ -39,7 +39,7 @@ function Menu() {
                     <p>All beef patty served with your choice of tasty toppings.<br/>
                        All items come with premium limited toppings and some unlimited toppings.
                     </p>
-                    <a><button onClick={clicked}>Order Now</button> </a>
+                    <a><button onClick={props.onClick}>Order Now</button> </a>
                     </div>
              </div>
                 

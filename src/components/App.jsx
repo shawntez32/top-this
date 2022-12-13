@@ -11,11 +11,16 @@ import BurgerTopping from "./BurgerToppings";
 
 function Apple() {
   const [notes, setNotes] = useState([]);
+  const [toppingClicked, clicker] = useState(false);
 
   function addNote(newNote) {
     setNotes(prevNotes => {
       return [...prevNotes, newNote];
     });
+  }
+
+  function clicked() {
+    clicker(true);
   }
 
   function deleteNote(id) {
@@ -31,7 +36,9 @@ function Apple() {
       <Header />
       <HomeImage />
       <TopThis />
-      <Menu />
+      <Menu
+      onClick={clicked}
+       />
       <Footer />
     </div>
   );
