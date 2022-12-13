@@ -12,6 +12,7 @@ import BurgerTopping from "./BurgerToppings";
 function Apple() {
   const [notes, setNotes] = useState([]);
   const [toppingClicked, clicker] = useState(false);
+  const [route, curRoute] = useState("");
 
   function addNote(newNote) {
     setNotes(prevNotes => {
@@ -20,7 +21,7 @@ function Apple() {
   }
 
   function clicked() {
-    clicker(false);
+    clicker(true);
   }
 
   var routes = {"header": <Header/>, "bg": <BurgerTopping/>,"home": <div>
@@ -42,7 +43,7 @@ onClick={clicked}
   }
 
   return (
-    toppingClicked ? <BurgerTopping /> : <div>
+    toppingClicked ? {curRoute} : <div>
       <Header />
       <HomeImage />
       <TopThis />
