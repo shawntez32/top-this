@@ -2,18 +2,8 @@ import React, { useState} from "react";
 import DinnerLimitless from "./DinnerLimitless";
 import Footer from "./Footer";
 import Header from "./Header";
-import {Menu, toppingClicked} from "./Menu";
-
-var home = <Header/>
-var dinners = <Menu/>
 
 function BurgerTopping(props) {
-    const [toppingClicked, clicker] = useState(false);
-    
-    function homeClicked() {
-        clicker(false);
-      }
-
     return (
     <>
     <burgertopping>
@@ -50,4 +40,3 @@ function BurgerTopping(props) {
 }
 
 export default BurgerTopping;
-export {toppingClicked};

@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import HomeImage from "./HomeImage";
 import Footer from "./Footer";
-import TopThis from "./TopThis";
 import {Menu,toppingClicked} from "./Menu";
 import BurgerTopping from "./BurgerToppings";
-import routes from "./routes";
 import Home from "./Home";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import SaladTopping from "./SaladToppings";
 import SoupTopping from "./SoupToppings";
 
