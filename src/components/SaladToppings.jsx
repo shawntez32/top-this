@@ -3,6 +3,7 @@ import React from "react";
 function SaladTopping() {
     return (
     <saladtopping>
+        <div></div>
         <div className="toppingBg">
         <div className="premium">
                 <div className="menuItem">
@@ -23,6 +24,7 @@ function SaladTopping() {
                 </div>
             </div>
         </div>
+        <div></div>
     </saladtopping>
     )
 }

@@ -204,12 +204,12 @@
     color: #fff;
   }
 
-  burgertopping,dinnerlimitless {
+  burgertopping,dinnerlimitless,saladtopping {
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
   }
 
-  .premium,.limitless {
+  .premium ,.limitless {
     margin-top: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -217,7 +217,11 @@
     background-color: #fff;
   }
 
-  .premium,.limitless h3,h4 {
+  .limitless h3,h4 {
+    margin: 5px 15px;
+  }
+
+  .premium h3,h4 {
     margin: 5px 15px;
   }
 
