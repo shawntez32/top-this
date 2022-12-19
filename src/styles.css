@@ -13,6 +13,11 @@
     background-image: linear-gradient(to bottom right,#f8e4ae,#d1c795,#d1c795,#f8e4ae);
   }
 
+  button {
+    all: unset;
+    cursor: pointer;
+  }
+
   img {
     image-rendering: -moz-crisp-edges;         /* Firefox */
     image-rendering:   -o-crisp-edges;         /* Opera */
@@ -48,7 +53,7 @@
     height: 40px;
   }
 
-  homeImage img {
+  .homeImage img {
     height: 490px;
     width: 100vw;
   }
@@ -195,11 +200,28 @@
     color: #fff;
   }
 
-  topthis {
+  burgertopping {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+  }
+
+  .premium {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #fff;
+  }
+
+  .premium h3,h4 {
+    margin: 5px 15px;
+  }
+
+  .topthis {
     align-items: flex-start;
   }
 
-  topthis .Welcome{
+  .topthis .Welcome{
     text-align: center;
     background-color: #f5ba13;
     height: 60px;
@@ -210,19 +232,19 @@
     grid-template-columns: 6fr 4fr 6fr;
   }
 
-  topthis .Welcome h1{
+  .topthis .Welcome h1{
     display: inline;
     vertical-align: middle;
   }
 
-  topthis img {
+  .topthis img {
     height: 60px;
     width: 100px;
     display: inline-block;
     vertical-align: bottom;
   }
 
-  topthis .about-topThis {
+  .topthis .about-topThis {
     text-align: center;
     font-size: 24px;
   }

@@ -11,15 +11,12 @@ var toppingClicked = false;
 
 function Menu(props) {
     
-    var [toppingClickedTrigger,clicker] = useState(false);
-    function clicked(arg) {
-        clicker = true;
-        arg = clicker;
-    }
-    
   return (
     <menu>
-        <Dinner />
+        <Dinner 
+        onClick={props.dinnerClicked}
+        bname="View Toppings"
+        />
         <Salad />
         <Soup />
     </menu>

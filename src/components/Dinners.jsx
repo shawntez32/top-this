@@ -19,7 +19,7 @@ function Dinner(props) {
                         <p>All beef patty served with your choice of tasty toppings.<br />
                             All items come with premium limited toppings and some unlimited toppings.
                         </p>
-                        <a><button onClick={props.onClick}>Order Now</button> </a>
+                        <button><a onClick={props.onClick}>{props.bname}</a></button>
                     </div>
                 </div>
 

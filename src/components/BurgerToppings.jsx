@@ -1,12 +1,25 @@
-import { render } from "@testing-library/react";
-import React from "react";
+import React, { useState} from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import {Menu} from "./Menu";
 
-function BurgerTopping() {
+var home = <Header/>
+var dinners = <Menu/>
+
+function BurgerTopping(props) {
+    const [toppingClicked, clicker] = useState(false);
+    
+    function homeClicked() {
+        clicker(false);
+      }
+
     return (
-    <><Header />
+    <><Header 
+    homeClick={homeClicked}
+    menuClick={dinners}
+    />
             <burgertopping>
+                <div></div>
                 <div className="toppingBg">
                     <div className="premium">
                         <div className="menuItem">
@@ -30,6 +43,7 @@ function BurgerTopping() {
 
                     </div>
                 </div>
+                <div></div>
             </burgertopping>
             <Footer /></>
     )

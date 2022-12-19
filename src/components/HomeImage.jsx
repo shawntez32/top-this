@@ -3,9 +3,9 @@ import cheese from "../images/a1.jpg";
 
 function HomeImage() {
   return (
-    <homeImage>
+    <div className="homeImage">
         <img src={cheese} alt="cheese-fries" />
-    </homeImage>
+    </div>
   );
 }
 
