@@ -1,7 +1,9 @@
 import React from "react";
+import SaladLimitless from "./SaladLimitless";
 
 function SaladTopping() {
     return (
+        <>
     <saladtopping>
         <div></div>
         <div className="toppingBg">
@@ -26,6 +28,8 @@ function SaladTopping() {
         </div>
         <div></div>
     </saladtopping>
+    <SaladLimitless text="unlimited" />
+    </>
     )
 }
 

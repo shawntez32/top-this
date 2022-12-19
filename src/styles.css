@@ -204,7 +204,7 @@
     color: #fff;
   }
 
-  burgertopping,dinnerlimitless,saladtopping {
+  burgertopping,dinnerlimitless,saladtopping,saladlimitless,souptopping,souplimitless {
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
   }

@@ -1,22 +1,22 @@
 import React from "react";
 
-function DinnerLimitless(props) {
-    return(
+function SaladLimitless(props) {
+    return (
         <>
-        <dinnerlimitless>
-                <div></div>
+        <saladlimitless>
+        <div></div>
                 <div className="toppingBg">
                     <div className="limitless">
                         <div className="menuItem">
-                            <h3 className="topping">Chives</h3>
+                            <h3 className="topping">Strawberry</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
-                            <h3 className="topping">Ketchup</h3>
+                            <h3 className="topping">Carrots</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
-                            <h3 className="topping">Mustard</h3>
+                            <h3 className="topping">Diced Tomato</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
@@ -24,15 +24,15 @@ function DinnerLimitless(props) {
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
-                            <h3 className="topping">Pickles</h3>
+                            <h3 className="topping">Cucumber</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
-                            <h3 className="topping">Ranch</h3>
+                            <h3 className="topping">Croutons</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
-                            <h3 className="topping">Chipotle</h3>
+                            <h3 className="topping">Tortilla Chips</h3>
                             <h4 className="price">{props.text}</h4>
                         </div>
                         <div className="menuItem">
@@ -42,9 +42,9 @@ function DinnerLimitless(props) {
                     </div>
                 </div>
                 <div></div>
-            </dinnerlimitless>
+        </saladlimitless>
         </>
     )
 }
 
-export default DinnerLimitless;
+export default SaladLimitless;
