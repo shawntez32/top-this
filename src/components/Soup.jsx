@@ -17,7 +17,7 @@ function Soup() {
                 <h3>Cheese Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <a href="/SoupTopping">View Topping</a>
+                <button><a href="/SoupTopping">View Topping</a></button>
             </div>
             </div>
             <div className="foodBox">
@@ -29,7 +29,7 @@ function Soup() {
                 <h3>Broth Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <a href="/SoupTopping">View Topping</a>
+                <button><a href="/SoupTopping">View Topping</a></button>
             </div>
             </div>
         </div>

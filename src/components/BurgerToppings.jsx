@@ -44,7 +44,7 @@ function BurgerTopping(props) {
         <div></div>
     </burgertopping>
     <DinnerLimitless
-    text="Unlimited" />
+    text="unlimited" />
     </>
     )
 }
