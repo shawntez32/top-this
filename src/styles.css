@@ -18,6 +18,10 @@
     cursor: pointer;
   }
 
+  a {
+    all: unset;
+  }
+
   img {
     image-rendering: -moz-crisp-edges;         /* Firefox */
     image-rendering:   -o-crisp-edges;         /* Opera */
@@ -200,12 +204,12 @@
     color: #fff;
   }
 
-  burgertopping {
+  burgertopping,dinnerlimitless {
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
   }
 
-  .premium {
+  .premium,.limitless {
     margin-top: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -213,7 +217,7 @@
     background-color: #fff;
   }
 
-  .premium h3,h4 {
+  .premium,.limitless h3,h4 {
     margin: 5px 15px;
   }
 

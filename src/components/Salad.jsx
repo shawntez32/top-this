@@ -18,7 +18,7 @@ function Salad() {
                 <h3>Iceberg Salad</h3>
                 <p>Create your own everyday fresh iceberg Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <a href="">Order Now</a>
+                <a href="/SaladTopping">Order Now</a>
                </div>
                 
             </div>
@@ -33,7 +33,7 @@ function Salad() {
                 <h3>Romaine Lettuce</h3>
                 <p>Everyday fresh romaine Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <a href="">Order Now</a>
+                <a href="/SaladTopping">Order Now</a>
                </div>
                 
             </div>

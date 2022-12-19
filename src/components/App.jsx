@@ -8,6 +8,7 @@ import BurgerTopping from "./BurgerToppings";
 import routes from "./routes";
 import Home from "./Home";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import SaladTopping from "./SaladToppings";
 
 
 function Apple() {
@@ -49,6 +50,7 @@ function Apple() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/DinnerTopping" element={<BurgerTopping />} />
+          <Route path="/SaladTopping" element={<SaladTopping/>} />
         </Routes>
         <Footer />
       </div>
