@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import icon from "../images/topthis.png";
 
 function Header(props) {
@@ -6,8 +7,8 @@ function Header(props) {
     <header>
       <div className="navbar">
         <img src={icon}></img>
-        <button><a href="/">Home</a></button>
-        <button><a href="/DinnerTopping">Menu</a></button>
+        <button><Link to="/">Home</Link></button>
+        <button><Link to="/DinnerTopping">Menu</Link></button>
         <button><a>Contact Us</a></button>
         <button><a>Join Us</a></button>
       </div>

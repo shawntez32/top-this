@@ -1,6 +1,7 @@
 import React from "react";
 import soup from "../images/soup.jfif";
 import soup2 from "../images/bsoup.jfif";
+import { Link } from "react-router-dom";
 
 function Soup() {
     return (
@@ -17,7 +18,7 @@ function Soup() {
                 <h3>Cheese Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <button><a href="/SoupTopping">View Topping</a></button>
+                <button><Link to="/SoupTopping">View Topping</Link></button>
             </div>
             </div>
             <div className="foodBox">
@@ -29,7 +30,7 @@ function Soup() {
                 <h3>Broth Based</h3>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <button><a href="/SoupTopping">View Topping</a></button>
+                <button><Link to="/SoupTopping">View Topping</Link></button>
             </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import iceberg from "../images/iceberg5.jpg";
 import romaine from "../images/romaine4.jpg";
+import { Link } from "react-router-dom";
 
 function Salad() {
     return (
@@ -18,7 +19,7 @@ function Salad() {
                 <h3>Iceberg Salad</h3>
                 <p>Create your own everyday fresh iceberg Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <button><a href="/SaladTopping">View Topping</a></button>
+                <button><Link to="/SaladTopping">View Topping</Link></button>
                </div>
                 
             </div>
@@ -33,7 +34,7 @@ function Salad() {
                 <h3>Romaine Lettuce</h3>
                 <p>Everyday fresh romaine Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
-                <button><a href="/SaladTopping">View Topping</a></button>
+                <button><Link to="/SaladTopping">View Topping</Link></button>
                </div>
                 
             </div>

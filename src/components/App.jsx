@@ -42,14 +42,14 @@ function Apple() {
   }
 
   return (
-    <Router>
+    <Router basename="">
       <div>
         <Header/>
         <Routes>
+          <Route exact path="/DinnerTopping" element={<BurgerTopping />} />
+          <Route exact path="/SaladTopping" element={<SaladTopping/>} />
+          <Route exact path="/SoupTopping" element={<SoupTopping />} />
           <Route path="/" element={<Home />} />
-          <Route path="/DinnerTopping" element={<BurgerTopping />} />
-          <Route path="/SaladTopping" element={<SaladTopping/>} />
-          <Route path="/SoupTopping" element={<SoupTopping />} />
         </Routes>
         <Footer />
       </div>

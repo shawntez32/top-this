@@ -2,6 +2,7 @@ import React from "react";
 import burger from "../images/burger4.jpg";
 import cheese from "../images/a1.jpg";
 import {toppingClicked} from "./Menu";
+import { Link } from "react-router-dom";
 
 function Dinner(props) {
     
@@ -21,7 +22,7 @@ function Dinner(props) {
                         <p>All beef patty served with your choice of tasty toppings.<br />
                             All items come with premium limited toppings and some unlimited toppings.
                         </p>
-                        <button><a href="/DinnerTopping">{props.bname}</a></button>
+                        <button><Link to="/DinnerTopping">{props.bname}</Link></button>
                     </div>
                 </div>
 
@@ -35,7 +36,7 @@ function Dinner(props) {
                         <h3>French Fries</h3>
                         <p>  Our famous fries.<br />
                             All items come with premium limited toppings and some unlimited toppings.</p>
-                        <button><a href="/DinnerTopping">{props.bname}</a></button>
+                        <button><Link to="/DinnerTopping">{props.bname}</Link></button>
                     </div>
                 </div>
 
