@@ -21,7 +21,7 @@ function Dinner(props) {
                         <p>All beef patty served with your choice of tasty toppings.<br />
                             All items come with premium limited toppings and some unlimited toppings.
                         </p>
-                        <button><a>{props.bname}</a></button>
+                        <button><a href="/DinnerTopping">{props.bname}</a></button>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ function Dinner(props) {
                         <h3>French Fries</h3>
                         <p>  Our famous fries.<br />
                             All items come with premium limited toppings and some unlimited toppings.</p>
-                        <a href="">Order Now</a>
+                        <a href="/DinnerTopping">{props.bname}</a>
                     </div>
                 </div>
 
