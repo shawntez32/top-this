@@ -1,8 +1,10 @@
 import React from "react";
 import burger from "../images/burger4.jpg";
 import cheese from "../images/a1.jpg";
+import {toppingClicked} from "./Menu";
 
 function Dinner(props) {
+    
     return (
         <><div className="space"></div><div className="dinners">
             <div>
@@ -19,7 +21,7 @@ function Dinner(props) {
                         <p>All beef patty served with your choice of tasty toppings.<br />
                             All items come with premium limited toppings and some unlimited toppings.
                         </p>
-                        <button><a onClick={props.onClick}>{props.bname}</a></button>
+                        <button><a>{props.bname}</a></button>
                     </div>
                 </div>
 

@@ -6,6 +6,8 @@ import TopThis from "./TopThis";
 import {Menu,toppingClicked} from "./Menu";
 import BurgerTopping from "./BurgerToppings";
 import routes from "./routes";
+import Home from "./Home";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 
 function Apple() {
@@ -41,18 +43,16 @@ function Apple() {
   }
 
   return (
-    toppingClicked ? <BurgerTopping/> : <div>
-      <Header
-      homeClicked={homeClicked}
-      menuClick={dinners}
-       />
-      <HomeImage />
-      <TopThis />
-      <Menu
-      dinnerClicked={clicked}
-      />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/DinnerTopping" element={<BurgerTopping />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

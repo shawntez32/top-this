@@ -9,12 +9,11 @@ var routes = {"header": <Header/>, "bg": <BurgerTopping/>}
 var toppingClicked = false;
 
 
-function Menu(props) {
+function Menu() {
     
   return (
     <menu>
         <Dinner 
-        onClick={props.dinnerClicked}
         bname="View Toppings"
         />
         <Salad />

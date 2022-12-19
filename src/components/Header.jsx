@@ -6,8 +6,8 @@ function Header(props) {
     <header>
       <div className="navbar">
         <img src={icon}></img>
-        <a onClick={props.homeClick}>Home</a>
-        <a href={props.menuClick}>Menu</a>
+        <button><a href="/">Home</a></button>
+        <a href="/DinnerTopping">Menu</a>
         <a>Contact Us</a>
         <a>Join Us</a>
       </div>
