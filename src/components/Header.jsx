@@ -9,8 +9,8 @@ function Header(props) {
         <img src={icon}></img>
         <button><Link to="/">Home</Link></button>
         <button><Link to="/DinnerTopping">Menu</Link></button>
-        <button><a>Contact Us</a></button>
-        <button><a>Join Us</a></button>
+        <button><Link to="/ContactUs">Contact Us</Link></button>
+        <button><Link>Join Us</Link></button>
       </div>
     </header>
   );

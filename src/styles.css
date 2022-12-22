@@ -315,8 +315,54 @@
     outline: none;
   }
 /*Small Port */
+@media screen and (max-width: 520px) {
+  burgertopping,dinnerlimitless,saladtopping,saladlimitless,souptopping,souplimitless {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
+  .homeImage {
+    display: none;
+  }
+
+  menu .foodBox .foodDsc{
+    height: 400px;
+  }
+  
+  menu .foodBox img {
+    height: 400px;
+  }
+
+  menu .foodBox {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items:flex-start;
+  }
+}
 /*medium Port */
+@media screen and (max-width: 650px) {
+  burgertopping,dinnerlimitless,saladtopping,saladlimitless,souptopping,souplimitless {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
+  .homeImage {
+    display: none;
+  }
+
+  menu .foodBox .foodDsc{
+    height: 400px;
+  }
+  
+  menu .foodBox img {
+    height: 400px;
+  }
+
+  menu .foodBox {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items:flex-start;
+  }
+}
 /*large Port */
   

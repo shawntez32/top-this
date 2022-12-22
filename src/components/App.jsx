@@ -7,6 +7,7 @@ import Home from "./Home";
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import SaladTopping from "./SaladToppings";
 import SoupTopping from "./SoupToppings";
+import ContactUs from "./ContactUs";
 
 
 function Apple() {
@@ -49,6 +50,7 @@ function Apple() {
           <Route exact path="/DinnerTopping" element={<BurgerTopping />} />
           <Route exact path="/SaladTopping" element={<SaladTopping/>} />
           <Route exact path="/SoupTopping" element={<SoupTopping />} />
+          <Route exact path="/ContactUs" element={<ContactUs />} />
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
