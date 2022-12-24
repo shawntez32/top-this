@@ -8,6 +8,7 @@ import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import SaladTopping from "./SaladToppings";
 import SoupTopping from "./SoupToppings";
 import ContactUs from "./ContactUs";
+import JoinUs from "../JoinUs";
 
 
 function Apple() {
@@ -51,6 +52,7 @@ function Apple() {
           <Route exact path="/SaladTopping" element={<SaladTopping/>} />
           <Route exact path="/SoupTopping" element={<SoupTopping />} />
           <Route exact path="/ContactUs" element={<ContactUs />} />
+          <Route exact path="/JoinUs" element={<JoinUs />} />
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />

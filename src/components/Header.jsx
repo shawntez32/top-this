@@ -10,7 +10,7 @@ function Header(props) {
         <button><Link to="/">Home</Link></button>
         <button><Link to="/DinnerTopping">Menu</Link></button>
         <button><Link to="/ContactUs">Contact Us</Link></button>
-        <button><Link>Join Us</Link></button>
+        <button><Link to="/JoinUs">Join Us</Link></button>
       </div>
     </header>
   );
