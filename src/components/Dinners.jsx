@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 function Dinner(props) {
     
     return (
-        <><div className="space"></div><div className="dinners">
+        <><div className="space"></div>
+        <div className="dinners">
             <div>
                 <h2>Dinners</h2>
                 <div className="foodBox">
@@ -19,8 +20,7 @@ function Dinner(props) {
                     <div className="foodDsc">
                         <h3>Burgers</h3>
 
-                        <p>All beef patty served with your choice of tasty toppings.<br />
-                            All items come with premium limited toppings and some unlimited toppings.
+                        <p>All beef patty served with your choice of tasty toppings.
                         </p>
                         <button><Link to="/DinnerTopping">{props.bname}</Link></button>
                     </div>
