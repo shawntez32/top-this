@@ -165,7 +165,7 @@
     color: #3c340a;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 15px;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   menu .foodBox {
@@ -190,9 +190,9 @@
     padding-right: 75px;
     padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 
   }
 
@@ -208,7 +208,7 @@
 
   burgertopping,dinnerlimitless,saladtopping,saladlimitless,souptopping,souplimitless {
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-columns: 2fr 5fr 2fr;
   }
 
   .premium ,.limitless {
@@ -251,6 +251,7 @@
   .topthis .Welcome h1{
     display: inline;
     vertical-align: middle;
+    font-size: 42px;
   }
 
   .topthis img {

@@ -1,6 +1,14 @@
 import React from "react";
 import "../contact.css";
 
+function contact() {
+  let inputVal = document.getElementById("contactId").value;
+  alert("Thanks for contacting us " + inputVal);
+  document.getElementById("contactId").value = "";
+  document.getElementById("contactEmail").value = "";
+  document.getElementById("contactMsg").value = "";
+}
+
 function ContactUs() {
     return (
         <>
@@ -27,19 +35,16 @@ function ContactUs() {
         <div class="screen-body-item">
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME" />
+              <input id="contactId" class="app-form-control" placeholder="NAME" />
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL" />
-            </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO" />
+              <input id="contactEmail" type="email" class="app-form-control" placeholder="EMAIL" />
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE" />
+              <input id="contactMsg" class="app-form-control" placeholder="MESSAGE" />
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">SEND</button>
+              <button onClick={contact} class="app-form-button">SEND</button>
               <button class="app-form-button">CANCEL</button>
             </div>
           </div>

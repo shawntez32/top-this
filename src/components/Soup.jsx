@@ -15,7 +15,7 @@ function Soup() {
                     <h4 className="img-text">Cheese Soup</h4>
                 </div>
                <div className="foodDsc">
-                <h3>Cheese Based</h3>
+                <h2>Cheese Based</h2>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <button><Link to="/SoupTopping">View Topping</Link></button>
@@ -27,7 +27,7 @@ function Soup() {
                     <h4 className="img-text">Broth Soup</h4>
                 </div>
                <div className="foodDsc">
-                <h3>Broth Based</h3>
+                <h2>Broth Based</h2>
                 <p>Delicious make your own soup.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <button><Link to="/SoupTopping">View Topping</Link></button>

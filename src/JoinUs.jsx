@@ -1,6 +1,14 @@
 import React from "react";
 
-function JoinUs() {
+
+function join() {
+  let inputVal = document.getElementById("inputId").value;
+  alert("Thanks for joining " + inputVal);
+  document.getElementById("inputId").value = "";
+  document.getElementById("inputEmail").value = "";
+}
+
+function JoinUs(props) {
     return (
         <>
         <div class="background">
@@ -26,13 +34,13 @@ function JoinUs() {
         <div class="screen-body-item">
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME" />
+              <input id="inputId" name="nameInput" class="app-form-control" placeholder="NAME" />
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL" />
+              <input id="inputEmail" class="app-form-control" placeholder="EMAIL" />
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">SEND</button>
+              <button onClick={join} class="app-form-button">SEND</button>
               <button class="app-form-button">CANCEL</button>
             </div>
           </div>

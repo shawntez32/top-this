@@ -16,7 +16,7 @@ function Salad() {
                 <h4 className="img-text">Iceberg Salad</h4>
                </div>
                <div className="foodDsc">
-                <h3>Iceberg Salad</h3>
+                <h2>Iceberg Salad</h2>
                 <p>Create your own everyday fresh iceberg Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <button><Link to="/SaladTopping">View Topping</Link></button>
@@ -31,7 +31,7 @@ function Salad() {
                     <h4 className="img-text">Romaine Salad</h4>
                 </div>
                <div className="foodDsc">
-                <h3>Romaine Lettuce</h3>
+                <h2>Romaine Lettuce</h2>
                 <p>Everyday fresh romaine Lettuce.<br/>
                        All items come with premium limited toppings and some unlimited toppings.</p>
                 <button><Link to="/SaladTopping">View Topping</Link></button>
