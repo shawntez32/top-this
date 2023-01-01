@@ -14,7 +14,6 @@ function Dinner(props) {
                 <div className="foodBox">
                     <div>
                         <img src={burger} alt="Burger"></img>
-                        <h4 className="img-text">Build-It Burger</h4>
                     </div>
 
                     <div className="foodDsc">
@@ -28,7 +27,6 @@ function Dinner(props) {
                 <div className="foodBox">
                     <div>
                         <img src={cheese} alt="Fries"></img>
-                        <h4 className="img-text">Famous fries</h4>
                     </div>
 
                     <div className="foodDsc">

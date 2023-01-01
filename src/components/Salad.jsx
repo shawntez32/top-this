@@ -13,7 +13,6 @@ function Salad() {
                <div className="foodBox">
                <div>
                 <img src={iceberg} alt="Iceberg Lettuce"></img>
-                <h4 className="img-text">Iceberg Salad</h4>
                </div>
                <div className="foodDsc">
                 <h2>Iceberg Salad</h2>
@@ -28,7 +27,6 @@ function Salad() {
                <div className="foodBox">
                 <div>
                     <img src={romaine} alt="Romaine Lettuce"></img>
-                    <h4 className="img-text">Romaine Salad</h4>
                 </div>
                <div className="foodDsc">
                 <h2>Romaine Lettuce</h2>

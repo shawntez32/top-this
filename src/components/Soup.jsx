@@ -12,7 +12,6 @@ function Soup() {
             <div className="foodBox">
                 <div>
                     <img src={soup} alt="Soup"></img>
-                    <h4 className="img-text">Cheese Soup</h4>
                 </div>
                <div className="foodDsc">
                 <h2>Cheese Based</h2>
@@ -24,7 +23,6 @@ function Soup() {
             <div className="foodBox">
                 <div>
                     <img src={soup2} alt="Soup"></img>
-                    <h4 className="img-text">Broth Soup</h4>
                 </div>
                <div className="foodDsc">
                 <h2>Broth Based</h2>
