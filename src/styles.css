@@ -186,7 +186,7 @@
   }
 
   menu .foodBox :last-child p {
-    margin-top: 4%;
+    margin-top: 25px;
     padding-right: 75px;
     padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
